@@ -94,12 +94,12 @@ nav a{
 
 @keyframes burgerprincipal{
     0% {
-        transform: rotate(2turn);
+        transform: rotate(-2turn);
     }
     
     
     100% {
-        transform: rotate(1turn);
+        transform: rotate(-1turn);
     }
 }
 
