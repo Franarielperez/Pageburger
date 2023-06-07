@@ -69,7 +69,7 @@ nav a{
 .mitad{
     display: flex;
     justify-content: center;
-    background-color:rgba(255, 217, 61, 1);
+    background-color:#FAC213;
     position: absolute;
     width: 926px;
     height: 891px;
@@ -89,6 +89,7 @@ nav a{
     object-fit: contain;
     animation-name: burgerprincipal;
     animation-duration: 2s;
+    cursor: pointer;
 
 }
 
@@ -150,155 +151,68 @@ nav a{
     left: 23px;
     filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.554));
 }
-.nombre::after{
-    content:"";
-    background-color: aqua;
+
+main{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-gap: 20px; 
 }
+
 
 .hola{
     max-width: 400px;
     max-height: 200px;
-    position:absolute;
-    
+    position: relative;
+    top: 800px;
 }
 
-.fondo1{
+.fondo1 {
     display: flex;
     justify-content: center;
     position: absolute;
     width: 257px;
     height: 137px;
-    background-color:#E5890A ;
-    top: 753px;
+    background-color: #E5890A;
+    top: 0; 
     left: 75px;
     border-radius: 0px 0px 30px 30px;
 }
 
-.fondo1 img{
+.hbs {
     display: flex;
     justify-content: center;
     position: relative;
-    width: 430px;
+    width: 400px;
     height: 290px;
     left: -3px;
     top: -190px;
-    filter: drop-shadow( 16px 16px 8px #0000006b);
-    object-fit:contain;
-    
-
-}
-
-.fondo1 img:hover{
-    transform: translatey(-20px);
-}
-
-.hola2{
-    width: 400px;
-    height: 200px;
-    position:absolute;
-
-}
-
-.fondo2{
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    width: 257px;
-    height: 137px;
-    background-color:#E5890A ;
-    top: 753px;
-    left: 575px;
-    border-radius: 0px 0px 30px 30px;
-}
-
-.fondo2 img{
-    display: flex;
-    justify-content: center;
-    position: relative;
-    width: 430px;
-    height: 300px;
-    left: -8px;
-    top: -214px;
-    filter: drop-shadow( 16px 16px 8px #0000006b);
+    filter: drop-shadow(16px 16px 8px #0000006b);
     object-fit: contain;
 }
-
-
-.fondo2 img:hover{
+.hbs:hover{
     transform: translateY(-20px);
-}
-
-
-.hola3{
-    width: 400px;
-    height: 200px;
-    position:absolute;
 
 }
 
-.fondo3{
+.btn1 {
     display: flex;
+    align-items: center;
     justify-content: center;
+    width: 100px;
+    height: 50px;
     position: absolute;
-    width: 257px;
-    height: 137px;
-    background-color:#E5890A ;
-    top: 753px;
-    left: 1080px;
-    border-radius: 0px 0px 30px 30px;
-}
-
-.fondo3 img{
-    display: flex;
-    justify-content: center;
-    position: relative;
-    width: 430px;
-    height: 246px;
-    top: -181px;
-    left: 39;
-    filter: drop-shadow( 16px 16px 8px #0000006b);
-    object-fit: contain;
-}
-
-.fondo3 img:hover{
-    transform: translateY(-20px);
-   
-    
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    background: #E5890A;
+    font-size: 16px;
 }
 
 
-.hola4{
-    width: 400px;
-    height: 200px;
-    position:absolute;
 
-}
 
-.fondo4{
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    width: 257px;
-    height: 137px;
-    background-color:#E5890A ;
-    top: 753px;
-    left: 1590px;
-    border-radius: 0px 0px 30px 30px;
-}
 
-.fondo4 img{
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    width: 340px;
-    height: 266px;
-    top: -192px;
-    filter: drop-shadow(6px 6px 3px #0000006b);
-    
-}
-
-.fondo4 img:hover{
-    transform: translateY(-20px);
-} 
- 
 
