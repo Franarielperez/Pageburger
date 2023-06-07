@@ -8,6 +8,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    cursor: auto;
 }
 
 html{
@@ -155,7 +156,7 @@ nav a{
 main{
     display: grid;
     grid-template-columns: repeat(4, 1fr); 
-    grid-gap: 20px; 
+    grid-gap: 110px; 
 }
 
 
@@ -163,7 +164,6 @@ main{
     max-width: 400px;
     max-height: 200px;
     position: relative;
-    top: 800px;
 }
 
 .fondo1 {
@@ -173,22 +173,46 @@ main{
     width: 257px;
     height: 137px;
     background-color: #E5890A;
-    top: 0; 
+    top: 800px; 
     left: 75px;
     border-radius: 0px 0px 30px 30px;
 }
+
 
 .hbs {
     display: flex;
     justify-content: center;
     position: relative;
-    width: 400px;
-    height: 290px;
     left: -3px;
     top: -190px;
     filter: drop-shadow(16px 16px 8px #0000006b);
     object-fit: contain;
 }
+
+.hbs.img1{
+    width: 420px;
+    left: -6px;
+    top: 630px;
+}
+.hbs.img2{
+    width: 320px;
+    height: 324px;
+    left: 35px;
+    top: 585px;
+}
+.hbs.img3{
+    width: 340px;
+    height: 240px;
+    left: 30px;
+    top: 628px;
+}
+
+.hbs.img4{
+    width: 350px;
+    left: 31px;
+    top: 630px;
+}
+
 .hbs:hover{
     transform: translateY(-20px);
 
@@ -210,6 +234,7 @@ main{
     background: #E5890A;
     font-size: 16px;
 }
+
 
 
 
